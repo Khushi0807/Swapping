@@ -1,0 +1,15 @@
+# Khushi
+//Swapping of number without using temporary variable
+#include<stdio.h>
+main();
+{
+int a,b;
+printf("Enter any two elements= ");
+scanf("%d %d",&a,&b);
+printf("Elements before swapping are %d and %d",a,b);              //Elements before swapping
+a=a+b;                                                             //Algo for swapping of two number
+b=a-b;
+a=a-b;
+printf("Elements after swapping are %d and %d",a,b);               //Elements after swapping
+return 0;
+}
